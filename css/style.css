@@ -780,6 +780,21 @@ a:focus {
   color: #b6eb7a;
 }
 
+.map-responsive {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
 /* footer section*/
 .footer_section {
   padding: 175px 0 25px 0;
